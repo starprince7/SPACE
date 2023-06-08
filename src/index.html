@@ -1,0 +1,94 @@
+<body>
+  <head>
+    <title>The Space</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <div id="loading_job"></div>
+  <div id="entrance"></div>
+  <span id="backmenu" class="back"
+    ><i class="fas fa-arrow-left"></i>To Main Menu</span
+  >
+  <span id="sound_ico"
+    ><i class="fas fa-volume-mute"></i> Click for Sound
+  </span>
+  <div class="container_main">
+    <div id="main_tittle">
+      <h1 class="main_title">SPACE</h1>
+      <div id="tag_line">Go Deeper</div>
+      <div id="start_btn" class="button hide">&lt;START&gt;</div>
+    </div>
+    <div id="astronaut" class="move_right section">
+      <span id="astronaut_title" class="item">&lt;Space Suit&gt;</span>
+      <img
+        id="astronaut_img"
+        class="astronaut rotate"
+        src="https://drive.google.com/uc?export=view&id=1F1mOzYBYrXKYchuxniRDwee0mdAR7_uy"
+        alt="astronaut"
+      />
+    </div>
+    <div id="planet" class="section">
+      <img
+        class="planet"
+        src="https://drive.google.com/uc?export=view&id=17gDd8vzsNbh04WHX7bvY0P5i9ouPPZIH"
+        alt="planet"
+      />
+      <span id="planet_title" class="item">&lt;Planets&gt;</span>
+      <img
+        class="moon"
+        src="https://assets.stickpng.com/images/580b585b2edbce24c47b270b.png"
+        alt="moon"
+      />
+    </div>
+    <div id="ship" class="move_right_bottom section">
+      <span id="ship_title" class="item">&lt;Ships&gt;</span>
+      <img
+        class="ship"
+        src="https://drive.google.com/uc?export=view&id=1RxTnQxGp_YlgdgwZtmeCc-XpLoEhn_KC"
+        alt="ship"
+      />
+    </div>
+    <div id="galaxy" class="section move_right_top">
+      <span id="galaxy_title" class="item">&lt;Galaxy&gt;</span>
+      <img
+        class="galaxy rotate-galaxy"
+        src="https://drive.google.com/uc?export=view&id=121DQ9wMoslmvaKOH5CQmvAUxZ6wMW_HP"
+        alt="galaxy"
+      />
+    </div>
+
+    <div id="container_desc" class="container-second">
+      <div id="title" class="container-title"></div>
+      <div id="info" class="container-body"></div>
+      <div class="container-footer">
+        <span id="back_to_sub"><i class="fas fa-arrow-left"></i>back</span>
+      </div>
+    </div>
+
+    <!-- Audios -->
+    <button id="invisible_btn" style="visibility: hidden;">play music</button>
+    <audio id="bg_music" class="audio" autoplay controls loop>
+      <source
+        src="https://drive.google.com/uc?export=view&id=11Sfa2RLflywdSG6qClLFdT3Rgh9zlpGh"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="beep" class="audio" controls>
+      <source
+        src="https://drive.google.com/uc?export=view&id=12E2AgA1Ejn4taqY3y4_nDzuzDF9hXsAY"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="beep_desc" class="audio" controls>
+      <source
+        src="https://drive.google.com/uc?export=view&id=1X9qGWwiNdl2RYejZdRerJJVghCoLdekk"
+        type="audio/mp3"
+      />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
