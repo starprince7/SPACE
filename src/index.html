@@ -9,8 +9,10 @@
   <span id="backmenu" class="back"
     ><i class="fas fa-arrow-left"></i>To Main Menu</span
   >
-  <span id="sound_ico"
-    ><i class="fas fa-volume-mute"></i> Click for Sound
+  <span id="sound_ico">
+    <div class="div_spring">
+      <i class="fas fa-volume-mute"></i> Click for Sound
+    </div>
   </span>
   <div class="container_main">
     <div id="main_tittle">
@@ -34,11 +36,7 @@
         alt="planet"
       />
       <span id="planet_title" class="item">&lt;Planets&gt;</span>
-      <img
-        class="moon"
-        src="assets/moon-transparent.png"
-        alt="moon"
-      />
+      <img class="moon" src="assets/moon-transparent.png" alt="moon" />
     </div>
     <div id="ship" class="move_right_bottom section">
       <span id="ship_title" class="item">&lt;Ships&gt;</span>
@@ -66,7 +64,7 @@
     </div>
 
     <!-- Audios -->
-    <button id="invisible_btn" style="visibility: hidden;">play music</button>
+    <button id="invisible_btn" style="visibility: hidden">play music</button>
     <audio id="bg_music" class="audio" autoplay controls loop>
       <source
         src="https://drive.google.com/uc?export=view&id=11Sfa2RLflywdSG6qClLFdT3Rgh9zlpGh"
